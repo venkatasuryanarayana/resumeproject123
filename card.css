@@ -1,0 +1,89 @@
+.main{
+  display: flex;
+  flex-direction: row;
+  background-color: pink;
+  justify-content: space-around;
+  border-radius: 10%;
+}
+.child1{
+  width: 30%;
+  height: 40%;
+  padding: 2%;
+  border: 2px solid #ddd;
+  box-shadow: 2px 3px 4px black;
+  background-color: skyblue;
+  margin: 2%;
+  border-radius: 5%;
+
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button{
+  width: 80%;
+  height: 20%;
+}
+.child2{
+  width: 30%;
+  height: 40%;
+  padding: 2%;
+  border: 2px solid #ddd;
+  box-shadow: 2px 3px 4px black;
+  background-color: skyblue;
+  margin: 2%;
+  border-radius: 5%;
+
+}
+img{
+  width: 60%;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .main{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    justify-content: space-around;
+    border-radius: 10%;
+  }
+  .child1{
+    width: 80%;
+    height: 40%;
+    padding: 2%;
+    border: 2px solid #ddd;
+    box-shadow: 2px 3px 4px black;
+    background-color: skyblue;
+    margin: 2%;
+    border-radius: 5%;
+
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+  }
+
+  button{
+    width: 80%;
+    height: 20%;
+  }
+  .child2{
+    width: 80%;
+    height: 40%;
+    padding: 2%;
+    border: 2px solid #ddd;
+    box-shadow: 2px 3px 4px black;
+    background-color: skyblue;
+    margin: 2%;
+    border-radius: 5%;
+
+  }
+  img{
+    width: 60%;
+  }
+}
